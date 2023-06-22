@@ -1,0 +1,113 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+body {
+    background-color: red;
+}
+
+.titulo {
+    background-color: azure;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 15px;
+    border: 3px color black;
+    border-radius: 10px;
+    margin-top: 30px;
+
+
+}
+
+.contenedor-barra {
+    margin: 20px;
+    text-align: center;
+}
+
+.barra {
+    display: inline-block;
+    background-color: black;
+    color: black;
+    padding: 8px 10px;
+    border-radius: 10px;
+    margin-left: 10px;
+    font-size: 23px;
+    border: 2px solid black;
+
+
+}
+
+.link-barra {
+    text-decoration: none;
+    color: white;
+
+}
+
+img {
+    width: 98%;
+    height: 600px;
+    padding: 10px;
+    align-content: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+form {
+    padding: 20px;
+}
+
+.paginaPrincipal {
+    padding: 28px;
+    text-align: center;
+    border: solid black;
+}
+
+.textoPrincipal {
+    font-size: 19px;
+    padding-left: 8px;
+    margin-top: 8px;
+}
+
+.noticiasPadre {
+    display: flex;
+    max-width: 100%;
+    margin: 10px;
+
+}
+
+.noticias {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    justify-content: space-evenly;
+    text-align: center;
+    padding: 15px;
+    margin: 5px;
+    border: 2px black solid;
+}
+
+.info-noticias {
+    background-color: white;
+    border-radius: 10px;
+    font-size: 14px;
+}
+
+.redes {
+    background-color: black;
+    height: 300px;
+   
+}
+.titulo-footer { margin: 15px; text-align: center; color: azure;
+
+}
+.redes ul { 
+    display: inline-block;
+}
+.contenedor-footer {display: flex; justify-content:space-between}
+
+
+.contacto  { text-decoration: none; margin: 15px; font-size: 25px; margin-right: 50px;}
+
