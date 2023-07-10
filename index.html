@@ -5,7 +5,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Pagina principal</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./css/style.css">
 
 </head>
@@ -13,9 +18,9 @@
 <body>
     <header>
 
-        <h1 class="titulo"> CLUB ATLETICO RIVER PLATE</h1>
-        <nav>
-            <ul class="contenedor-barra">
+        <h1 class="titulo__home"> CLUB ATLETICO RIVER PLATE</h1>
+        <nav class="navbar__home">
+            <ul class="contenedor-barra-home">
                 <li class="barra"><a class="link-barra" href="./pages/mercado.html">mercado de pases</a></li>
                 <li class="barra"><a class="link-barra" href="./pages/alineacion.html">alineacion actual</a></li>
                 <li class="barra"><a class="link-barra" href="./pages/fixture.html">fixture</a></li>
@@ -23,6 +28,7 @@
                 </li>
             </ul>
         </nav>
+    
 
         <form action=""> <input type="search" placeholder="buscar...">
 
@@ -30,30 +36,30 @@
         </form>
     </header>
 
-    <section class="main">
-        <main>
-            <h2 class="paginaPrincipal"> De que se trata nuestra pagina?</h2>
-            <p class="textoPrincipal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique officiis ipsam
+    <section >
+        <main class="main-home">
+            <h2 class="pagina-principal"> De que se trata nuestra pagina?</h2>
+            <p class="texto-principal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique officiis ipsam
                 cumque ad ipsa esse!
                 Incidunt harum eum exercitationem iusto, reiciendis, facilis perspiciatis dignissimos corporis iure,
                 assumenda cupiditate doloremque odio. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
                 nemo
                 harum nostrum iure soluta, dicta commodi recusandae aliquid temporibus quia cum, quasi accusamus omnis,
                 repellat obcaecati hic ducimus illo impedit.</p>
-            <div> <img src="./img/monu.webp" alt="escudo de river"></div>
+            <div class="img-main"   > <img src="./img/monu.webp" alt="escudo de river"></div>
         </main>
 
-    </section>
-    <section class="noticiasPadre">
+     </section>
+     <section class="noticias-padre">
         <div class="noticias">
-            <img class="img-noticias" src="./img/imagen 3.webp" alt="estatua">
-            <p class="info-noticias">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus quia iure, atque
+            <img class="img-noticias" src="./img/img-estatua.jpg" alt="estatua"> 
+             <p class="info-noticias">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus quia iure, atque
                 accusamus quis
                 consectetur
                 harum suscipit sed laborum, ut unde vero recusandae quas, commodi blanditiis cupiditate quibusdam
                 tempore
                 ad.</p>
-        </div>
+        </div> 
 
         <div class="noticias">
             <img class="img-noticias" src="./img/noticia 2.jpg" alt="el-equipo">
@@ -73,25 +79,25 @@
                 tempore
                 ad.</p>
         </div>
-    </section>
+    </section> 
     <footer>
-        <div class="redes">
+        
             <h1 class="titulo-footer"> Redes</h1>
             <ul class="contenedor-footer">
-                <li >
+                <li>
                     <a class="contacto" href="">instagram</a>
 
                 </li>
-                <li ><a class="contacto" href="">twiter</a>
-                </li> 
-                <li > <a class="contacto" href="">whatsapp</a></li>
-                <li > <a class="contacto" href="">facebook</a></li>
+                <li><a class="contacto" href="">twiter</a>
+                </li>
+                <li> <a class="contacto" href="">whatsapp</a></li>
+                <li> <a class="contacto" href="">facebook</a></li>
             </ul>
-        </div>
-    </footer>
+        
+    </footer> 
 
 </body>
 
 
 
-</html>
+</html> 
