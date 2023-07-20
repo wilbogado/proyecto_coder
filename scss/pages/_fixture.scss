@@ -1,0 +1,77 @@
+.titulo-fix {
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.navbar__fix {
+    color: white;
+}
+
+.link-barra-fix {
+    color: white;
+    text-decoration: none;
+}
+
+.barra-fix {
+    color: azure;
+    background-color: black;
+    gap: 1 rem;
+    border-radius: 10px;
+    font-size: 2rem;
+    border: 2px solid black;
+    list-style: none;
+    content: 20px;
+
+
+}
+
+.contenedor-barra-fix {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: 15px;
+    gap: 1rem;
+}
+.partidos {
+    background-color: whitesmoke;
+    border: 5px solid black;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    width: 28rem;
+    font-size: 1rem;
+}
+
+.contenedor-lista-partidos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 1.5rem;
+
+
+}
+
+
+.main-fix {
+    margin: 1rem;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+@media (min-width:768px) {
+    .contenedor-barra-fix {
+
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        justify-content: space-evenly;
+        border: 15px;
+        gap: 1rem;
+    }
+
+    .barra-fix {
+        font-size: 1.5rem;
+    }
+}
